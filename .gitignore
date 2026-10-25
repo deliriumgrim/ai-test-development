@@ -1,0 +1,16 @@
+# ---- Go (backend/) ----
+/backend/backend
+*.exe
+*.test
+*.out
+
+# ---- Node (frontend/) ----
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- IDE ----
+.idea/
+

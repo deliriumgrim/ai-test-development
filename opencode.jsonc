@@ -1,0 +1,6 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // Автозагрузка — только индекс ADR (легковесный, не растёт с числом ADR).
+  // Сами ADR читаются по необходимости: агент сверяется с индексом (см. AGENTS.md).
+  "instructions": ["adr/README.md"]
+}
